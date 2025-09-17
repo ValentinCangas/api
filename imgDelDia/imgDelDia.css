@@ -1,0 +1,39 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+
+body{
+    flex-direction: column;
+    display: flex;
+  justify-content: center;  
+  align-items: center;
+    background-color: rgb(8, 8, 99);
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
+
+button{
+    background-color: rgb(138, 22, 14);
+    color: white;
+    font-size: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+.botones{
+    flex-direction: column;
+    display: flex;
+  justify-content: center; 
+}
+
+button:hover{
+    background-color: rgb(87, 13, 8);
+    color: rgb(139, 139, 139);
+}
+
+button:active{
+    background-color: rgb(138, 22, 14);
+    color: white;
+}
