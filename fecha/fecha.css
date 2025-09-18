@@ -3,6 +3,11 @@ h1{
     color: aliceblue;
 }
 
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+
 body{
     flex-direction: column;
     display: flex;
@@ -22,7 +27,7 @@ button{
     font-size: 30px;
     border-radius: 10px 10px 10px 10px;
 }
-.botones{
+#botonFecha{
     flex-direction: column;
     display: flex;
   justify-content: center; 
@@ -38,6 +43,11 @@ button:active{
     color: white;
 }
 
+input{
+    color: rgb(255, 255, 255);
+    background-color: cornflowerblue;
+}
+
 footer{
     
     position: fixed;  
@@ -49,4 +59,3 @@ footer{
 color: white;
 background-color: rgb(42, 73, 131);
 }
-
